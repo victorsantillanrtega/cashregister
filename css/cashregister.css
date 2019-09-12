@@ -3,7 +3,7 @@
 * @author Victor Santillan <santillan-15@live.com.mx>
 * @copyright Copyright (c) 2019, Victor Santillan
 */
-.ctn-cashregister{max-height: 350px; max-width: 350px;overflow-y: auto;overflow-x: auto;}
+.ctn-cashregister{max-height: 350px; max-width: 500px;overflow-y: auto;overflow-x: auto;}
 .form-ctrl{height:34px;padding:6px 12px;font-size:14px;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;}
 .alert a {color: #fff;text-decoration: underline;}
 .alert-success {border-color: #008d4c;}
@@ -44,7 +44,14 @@
 #td2-total{font-weight: bold;}
 .spandel{position: absolute;border: 1px solid #000;border-radius: 15px;left: 0px;top: 0px;padding: 0px 4px;font-size: 10px;font-weight: 600;cursor: pointer;}
 .spandel:hover{background-color: #f39c12;color:#ffffff; border:1px solid #f39c12;}
-.btn {display: inline-block;margin-bottom: 0;font-weight: 400;text-align: center;white-space: nowrap;vertical-align: middle;-ms-touch-action: manipulation;touch-action: manipulation;cursor: pointer;background-image: none;border: 1px solid transparent;padding: 6px 12px;font-size: 14px;line-height: 1.42857143;border-radius: 4px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
-.pull-right {float: right !important;}
-.pull-left {float: left !important;}
-.btn-primary {background-color: #3c8dbc;border-color: #367fa9;}
+.btn{display: inline-block;margin-bottom: 0;font-weight: 400;text-align: center;white-space: nowrap;vertical-align: middle;-ms-touch-action: manipulation;touch-action: manipulation;cursor: pointer;background-image: none;border: 1px solid transparent;padding: 6px 12px;font-size: 14px;line-height: 1.42857143;border-radius: 4px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.pull-right{float: right !important;}
+.pull-left{float: left !important;}
+.btn-primary{background-color: #3c8dbc;border-color: #367fa9;}
+.btn-warning{background-color: #f39c12;border-color: #e08e0b;}
+#btn-cancel,#btn-submit{margin-top:10px;}
+.tthead{background-color: #00c0ef; color:#fff;border:#000;}
+.tthead > tr > th{border:1px solid #000000;}
+.rowa{background-color: #dddddd;}
+.rowb{background-color: #ffffff;}
+.rowa:hover,.rowb:hover{background-color: #ccc;}
